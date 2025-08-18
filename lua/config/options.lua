@@ -1,5 +1,17 @@
 local options = {
     shiftwidth = 4,
+    tabstop = 4,
+    softtabstop = 4,
+    expandtab = true,
+
+    wrap = false,
+
+    hlsearch = false,
+    incsearch = true,
+
+    scrolloff = 8,
+
+    updatetime = 50,
 
     ignorecase = true, --ignore case while searching
     smartcase = true, --but do not ignore if caps are used
